@@ -4,7 +4,7 @@ let num = '12121'; //change the value inside ''.
 let revNum = '';
 
 for(let i = num.length-1; i>=0; i--) {
-  reNum+=num[i]; //I've made a spelling mistake in this line. fix it.
+  revNum+=num[i]; 
 }
 
 if(num==revNum) {
