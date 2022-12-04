@@ -4,7 +4,7 @@
     let prime = true;
     
     for(let i = 2; i<num; i++) {
-        if(num%2==0) {  //I have made a mistake in this line. Fix it and delete this comment.
+        if(num%i==0) {  
             prime=false;
             break;
         }
